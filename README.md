@@ -2,7 +2,6 @@
 Repository for a modification of the Phob motherboard to fit an Hori Pad GCC
 
 Potential issues: <br />
-I didn't test the original button pads or rumble. <br />
 
 LR pads are a bit too small, you may need to glue them/stick them in place if you plan to use them. <br />
 
