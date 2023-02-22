@@ -1,0 +1,14 @@
+Changes
+
+Phob1_2Teensy4_0.h:
+const int _pinZ2 = 9;
+
+readHardware.h:
+pinMode(_pinZ2,INPUT_PULLUP);
+hardware.Z = !digitalRead(pin.pinZ) or !digitalRead(pin.pinZ2);
+
+phobGCC.h:
+.pinZ2  = _pinZ2,
+
+structsAndEnums.h:
+int pinZ2;
